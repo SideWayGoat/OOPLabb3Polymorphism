@@ -6,7 +6,7 @@ namespace OOPLabb3Polymorphism
 {
     public class Geometry
     {
-        private double Area;
+        protected readonly double Area;
 
         public virtual double getArea()
         {

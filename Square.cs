@@ -6,7 +6,7 @@ namespace OOPLabb3Polymorphism
 {
     public class Square : Geometry
     {
-        public double Side { get; set; }
+        private double Side { get; set; }
 
         public Square(double _side)
         {

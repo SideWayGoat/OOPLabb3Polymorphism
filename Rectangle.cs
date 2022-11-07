@@ -6,8 +6,8 @@ namespace OOPLabb3Polymorphism
 {
     public class Rectangle : Geometry
     {
-        public double Lenght { get; set; }
-        public double Width { get; set; }
+        private double Lenght { get; set; }
+        private double Width { get; set; }
 
         public Rectangle(double _lenght, double _width)
         {

@@ -6,7 +6,7 @@ namespace OOPLabb3Polymorphism
 {
     public class Circle : Geometry
     {
-        public double Radius { get; set; }
+        private double Radius { get; set; }
 
         public Circle(double _radius)
         {
@@ -15,7 +15,7 @@ namespace OOPLabb3Polymorphism
 
         public override double getArea()
         {
-            return (Radius * Radius * Math.PI);
+            return Math.Round(Radius * Radius * Math.PI, 2);
         }
     }
 }
